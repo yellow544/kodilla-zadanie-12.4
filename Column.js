@@ -13,10 +13,10 @@ function Column(id, name) {
 		var columnDelete = $('<button class="btn-delete">x</button>');
 		var columnAddCard = $('<button class="column-add-card">Add card</button>');
 		
-		columnDelete.click(function() {
+		columnDelete.on("click", function() {
 			self.deleteColumn();
 		});
-		columnAddCard.click(function(event) {
+		columnAddCard.on("click", function(event) {
 			var cardName = prompt("Enter a card name");
 			event.preventDefault();
 			$.ajax({
