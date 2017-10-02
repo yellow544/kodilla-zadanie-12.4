@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Wendy+One');
+
+* { 
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Indie Flower', cursive;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  padding-top: 25px;
+
+}
+
+button {
+  font-family: 'Wendy One', sans-serif;
+  border-radius: 50px;
+  background: #c0392b;
+}
+
+.board {
+  background: #34495e;
+  text-align: center;
+  
+}
+.create-column {
+  background: #e74c3c;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.column {
+  border: 1px #bdc3c7 solid;
+  flex-grow: 1;
+}
+
+.column-container {
+  display: flex;
+  flex-grow: 1;
+}
+
+.card {
+  width: 250px;
+  height: 250px;
+  background: #f39c12;
+  margin: 20px auto;
+  font-size: 25px;
+  padding: 5px;
+  overflow: scroll;
+}
+
+.card-list {
+  background: #95a5a6;
+  padding: 1% 0 1% 1%;
+}
+
+.column-container {
+  background: #7f8c8d;
+  font-size: 30px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.column-add-card, .btn-delete {
+  font-size: 20px;
+  margin-left: 10px;
+}
+
